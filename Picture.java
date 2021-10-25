@@ -15,6 +15,7 @@ public class Picture
     private Square window;
     private Triangle roof;
     private Circle sun;
+    private Square grass;
 
     /**
      * Constructor for objects of class Picture
@@ -47,13 +48,120 @@ public class Picture
         roof.moveHorizontal(20);
         roof.moveVertical(-60);
         roof.makeVisible();
-
+        
         sun = new Circle();
         sun.changeColor("yellow");
         sun.moveHorizontal(100);
-        sun.moveVertical(-40);
+        sun.moveVertical(80);
         sun.changeSize(80);
         sun.makeVisible();
+        
+        grass= new Square();
+        grass.changeColor("green");
+        grass.changeSize(45);
+        grass.moveVertical(135);
+        grass.moveHorizontal(145);
+        grass.makeVisible();
+        
+        grass= new Square();
+        grass.changeColor("green");
+        grass.changeSize(45);
+        grass.moveVertical(135);
+        grass.moveHorizontal(110);
+        grass.makeVisible();
+        
+        grass= new Square();
+        grass.changeColor("green");
+        grass.changeSize(45);
+        grass.moveVertical(135);
+        grass.moveHorizontal(75);
+        grass.makeVisible();
+        
+        grass= new Square();
+        grass.changeColor("green");
+        grass.changeSize(45);
+        grass.moveVertical(135);
+        grass.moveHorizontal(40);
+        grass.makeVisible();
+        
+        grass= new Square();
+        grass.changeColor("green");
+        grass.changeSize(45);
+        grass.moveVertical(135);
+        grass.moveHorizontal(5);
+        grass.makeVisible();
+        
+        grass= new Square();
+        grass.changeColor("green");
+        grass.changeSize(45);
+        grass.moveVertical(135);
+        grass.moveHorizontal(-30);
+        grass.makeVisible();
+        
+        grass= new Square();
+        grass.changeColor("green");
+        grass.changeSize(45);
+        grass.moveVertical(135);
+        grass.moveHorizontal(-65);
+        grass.makeVisible();
+        
+        grass= new Square();
+        grass.changeColor("green");
+        grass.changeSize(45);
+        grass.moveVertical(135);
+        grass.moveHorizontal(-100);
+        grass.makeVisible();
+        
+        grass= new Square();
+        grass.changeColor("green");
+        grass.changeSize(45);
+        grass.moveVertical(135);
+        grass.moveHorizontal(-135);
+        grass.makeVisible();
+        
+        grass= new Square();
+        grass.changeColor("green");
+        grass.changeSize(45);
+        grass.moveVertical(135);
+        grass.moveHorizontal(-165);
+        grass.makeVisible();
+        
+        grass= new Square();
+        grass.changeColor("green");
+        grass.changeSize(45);
+        grass.moveVertical(135);
+        grass.moveHorizontal(-200);
+        grass.makeVisible();
+        
+        grass= new Square();
+        grass.changeColor("green");
+        grass.changeSize(45);
+        grass.moveVertical(135);
+        grass.moveHorizontal(-235);
+        grass.makeVisible();
+        
+        grass= new Square();
+        grass.changeColor("green");
+        grass.changeSize(45);
+        grass.moveVertical(135);
+        grass.moveHorizontal(-265);
+        grass.makeVisible();
+        
+        grass= new Square();
+        grass.changeColor("green");
+        grass.changeSize(45);
+        grass.moveVertical(135);
+        grass.moveHorizontal(-300);
+        grass.makeVisible();
+        
+        grass= new Square();
+        grass.changeColor("green");
+        grass.changeSize(45);
+        grass.moveVertical(135);
+        grass.moveHorizontal(-315);
+        grass.makeVisible();
+        
+        sun.slowMoveVertical(-80);
     }
 
     /**
