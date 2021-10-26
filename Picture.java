@@ -162,6 +162,7 @@ public class Picture
         grass.makeVisible();
         
         sun.slowMoveVertical(-80);
+        
     }
 
     /**
@@ -191,4 +192,11 @@ public class Picture
             sun.changeColor("yellow");
         }
     }
-}
+    /**
+     * Change this to sunset
+     */
+    public void atardecer()
+    {
+        sun.slowMoveVertical(75);}
+        
+    }   
